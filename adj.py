@@ -104,3 +104,7 @@ def get_adj_price(short_code, fromdate, todate):
     adj = cls * cum_mul(factor)
     com_tmp['adj_close'] = adj
     return com_tmp
+
+
+def run():
+    print("Power running!!!!")
