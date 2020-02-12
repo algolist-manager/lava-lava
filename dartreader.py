@@ -69,3 +69,9 @@ class dartreader():
 
         print('얻은 재무제표 숫자 : {}개'.format(len(fr_list)))
         return fr_list
+
+    def link_list(self, multi_layered):
+        linked = []
+        for i in range(len(multi_layered)):
+            linked += multi_layered[i]
+        return linked
